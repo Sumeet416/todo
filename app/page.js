@@ -42,8 +42,6 @@ const page = () => {
     <h1 className='bg-gray-900 text-white text-center text-4xl font-bevietnam tracking-wide py-1'>
       Todo List
     </h1>
-
-    //form
     <form onSubmit={submitHandler} className='flex  flex-col m-5 p-6 gap-4'>
 
       <input type='text' placeholder='Enter Title here' className='px-4 py-2 text-lg bg-white rounded-sm border-2' required value={title} onChange={(e)=>{
